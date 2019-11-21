@@ -1,0 +1,57 @@
+﻿生成启动时间为 2019/11/19 9:53:34。
+     1>项目“E:\programing practice\practice\practice.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\VS2012_Install\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt practice_1.cpp
+         practice_1.cpp
+     1>e:\programing practice\practice\queue.h(29): warning C4005: “OVERFLOW”: 宏重定义
+                 c:\vs2012_install\vc\include\math.h(449) : 参见“OVERFLOW”的前一个定义
+       Link:
+         C:\VS2012_Install\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\programing practice\practice\Debug\practice.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\programing practice\practice\Debug\practice.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\programing practice\practice\Debug\practice.lib" /MACHINE:X86 Debug\practice.res
+         Debug\2DArray.obj
+         Debug\2DArrayAddress.obj
+         Debug\9_9multiplication.obj
+         Debug\badParameterCount.obj
+         Debug\Binary.obj
+         Debug\binaryTree.obj
+         Debug\changeValueOfTwoNumber.obj
+         Debug\cut_strlen.obj
+         Debug\dataTypeLength.obj
+         Debug\deleteDataSpacingThreeData.obj
+         Debug\escape.obj
+         Debug\exercise.obj
+         Debug\fgets1.obj
+         Debug\file_input_output.obj
+         Debug\film_linkList.obj
+         Debug\fseekExample.obj
+         Debug\func_pointer.obj
+         Debug\getsPuts.obj
+         Debug\ifdef.obj
+         Debug\link_list.obj
+         Debug\local_static_variable.obj
+         Debug\modulo_operator.obj
+         Debug\operator.obj
+         Debug\pointerOperat.obj
+         Debug\pointerUsedOf2dArray.obj
+         Debug\practice_1.obj
+         Debug\practice_2.obj
+         Debug\queue.obj
+         Debug\reducedFile.obj
+         Debug\sortAlgorithm.obj
+         Debug\sortTest.obj
+         Debug\sort_string.obj
+         Debug\stack.obj
+         Debug\stringStore.obj
+         Debug\structInstance.obj
+         Debug\str_cat.obj
+         Debug\str_copy.obj
+         Debug\sum.obj
+         Debug\useBinaryTree.obj
+         Debug\UseStack.obj
+         Debug\variableLengthArray.obj
+         Debug\wheat.obj
+         practice.vcxproj -> E:\programing practice\practice\Debug\practice.exe
+     1>已完成生成项目“E:\programing practice\practice\practice.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.84

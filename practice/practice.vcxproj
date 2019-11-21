@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C8C8919A-2BE9-4AD4-AD30-9F8CAA1266E3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>practice</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="2DArray.cpp" />
+    <ClCompile Include="2DArrayAddress.cpp" />
+    <ClCompile Include="9_9multiplication.cpp" />
+    <ClCompile Include="badParameterCount.cpp" />
+    <ClCompile Include="Binary.cpp" />
+    <ClCompile Include="binaryTree.cpp" />
+    <ClCompile Include="changeValueOfTwoNumber.cpp" />
+    <ClCompile Include="cut_strlen.cpp" />
+    <ClCompile Include="dataTypeLength.cpp" />
+    <ClCompile Include="deleteDataSpacingThreeData.cpp" />
+    <ClCompile Include="escape.cpp" />
+    <ClCompile Include="exercise.cpp" />
+    <ClCompile Include="fgets1.cpp" />
+    <ClCompile Include="file_input_output.cpp" />
+    <ClCompile Include="film_linkList.cpp" />
+    <ClCompile Include="fseekExample.cpp" />
+    <ClCompile Include="func_pointer.cpp" />
+    <ClCompile Include="getsPuts.cpp" />
+    <ClCompile Include="ifdef.cpp" />
+    <ClCompile Include="link_list.cpp" />
+    <ClCompile Include="local_static_variable.cpp" />
+    <ClCompile Include="modulo_operator.cpp" />
+    <ClCompile Include="operator.cpp" />
+    <ClCompile Include="pointerOperat.cpp" />
+    <ClCompile Include="pointerUsedOf2dArray.cpp" />
+    <ClCompile Include="practice_1.cpp" />
+    <ClCompile Include="practice_2.cpp" />
+    <ClCompile Include="queue.cpp" />
+    <ClCompile Include="reducedFile.cpp" />
+    <ClCompile Include="sortAlgorithm.cpp" />
+    <ClCompile Include="sortTest.cpp" />
+    <ClCompile Include="sort_string.cpp" />
+    <ClCompile Include="stack.cpp" />
+    <ClCompile Include="stringStore.cpp" />
+    <ClCompile Include="structInstance.cpp" />
+    <ClCompile Include="str_cat.cpp" />
+    <ClCompile Include="str_copy.cpp" />
+    <ClCompile Include="sum.cpp" />
+    <ClCompile Include="useBinaryTree.cpp" />
+    <ClCompile Include="UseStack.cpp" />
+    <ClCompile Include="variableLengthArray.cpp" />
+    <ClCompile Include="wheat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="binaryTree.h" />
+    <ClInclude Include="inttypes.h" />
+    <ClInclude Include="Link_list.h" />
+    <ClInclude Include="queue.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="sortAlgorithm.h" />
+    <ClInclude Include="stack.h" />
+    <ClInclude Include="testEventCode.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="practice.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
